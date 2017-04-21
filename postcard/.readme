@@ -1,0 +1,10 @@
+# mysql initall usage
+
+create database postcard_db;
+create table user (username varchar(32) not null primary key, password varchar(64));
+
+CREATE USER 'postcard'@'localhost' IDENTIFIED BY 'postcard';
+grant all on postcard_db.* to 'postcard'@'localhost';
+
+insert into user(username, password) values('admin', 'admin');
+

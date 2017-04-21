@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "locks_c", "locks_c\locks_c.vcxproj", "{492F4E99-3117-48B6-A727-B931777882C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "locks_s", "locks_s\locks_s.vcxproj", "{D0880F33-83B4-4876-AD85-397693CADEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{492F4E99-3117-48B6-A727-B931777882C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{492F4E99-3117-48B6-A727-B931777882C4}.Debug|Win32.Build.0 = Debug|Win32
+		{492F4E99-3117-48B6-A727-B931777882C4}.Release|Win32.ActiveCfg = Release|Win32
+		{492F4E99-3117-48B6-A727-B931777882C4}.Release|Win32.Build.0 = Release|Win32
+		{D0880F33-83B4-4876-AD85-397693CADEBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0880F33-83B4-4876-AD85-397693CADEBA}.Debug|Win32.Build.0 = Debug|Win32
+		{D0880F33-83B4-4876-AD85-397693CADEBA}.Release|Win32.ActiveCfg = Release|Win32
+		{D0880F33-83B4-4876-AD85-397693CADEBA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
